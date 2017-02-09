@@ -11,6 +11,6 @@ const Greeting = () => {
 export default (
   <Route path='/' component={App}>
     <IndexRoute component={PostsIndex} />
-    <Route path='post/new' component={PostNew} />
+    <Route path='posts/new' component={PostNew} />
   </Route>
 );
